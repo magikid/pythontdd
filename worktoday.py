@@ -27,7 +27,7 @@ class worktoday():
         '''
         
         if self.shift == "a" or self.shift == "b":        
-            if(self.week % 2 == 0):
+            if(self.week % 2 == 0): 
                 if(self.day == 3 or self.day == 4):
                     return False
                 else:
